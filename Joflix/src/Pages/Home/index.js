@@ -8,10 +8,12 @@ import Category, {
   categories,
   filterCategory,
 } from "../../components/Category";
+import ScrollButton from "../../components/ScrollButton";
 
 function Home() {
   return (
     <>
+      <ScrollButton />
       <Header />
       <Banner image="assistir" />
       <Container>

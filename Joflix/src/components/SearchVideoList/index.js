@@ -30,7 +30,7 @@ export default function SearchVideoList({ videos }) {
     <section className={styles.container}>
       <input
         type="search"
-        placeholder="pesquisar"
+        placeholder="Pesquisar..."
         value={searchText}
         onChange={(e) => setsearchText(e.target.value)}
       />

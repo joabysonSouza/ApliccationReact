@@ -5,11 +5,13 @@ import Header from "../../components/Header";
 import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import { useFavoritesContext } from "../../contexts/Favorites";
+import ScrollButton from "../../components/ScrollButton";
 
 function Favorites() {
   const {favorite}= useFavoritesContext()
   return (
     <>
+     <ScrollButton />
       <Header />
       <Container>
         <section className={Styles.favorites}>
